@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #229799;
+    transition: opacity 0.5s ease;
+}
+#time{
+    color: #F5F5F5;
+    padding: 30px;
+    font-family:'lato';
+    letter-spacing:px;
+    font-size: 300px;
+}
+.stopwatch>#info{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px; display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    right: 90px; 
+    cursor: pointer;   
+      
+}
+.stopwatch{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width:100%;
+    justify-content: center;
+    position: relative;
+}
+.stopwatch>.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    left: 90px;
+    
+}
+button{
+    font-size: 25px;
+    font-family:'lato';
+  font-weight: 900;
+  font-style: normal;;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    color: #229799;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 221, 255);
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 30px;
+    cursor: pointer;
+   width:100%;
+   height: fit-content;
+   cursor: pointer;
+}
+button:hover{
+   box-shadow: #ffffffa1 5px 5px 100px;
+}
+.stopwatch>#info:hover{
+    box-shadow: #ffffffa1 5px 5px 100px;
+}
+.fade-out {
+    opacity: 0;
+}
