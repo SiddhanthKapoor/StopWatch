@@ -55,3 +55,20 @@ padding: 20px;
 padding-bottom: 40px;
 color: blanchedalmond;
 }
+.description:hover {
+transform: scale(1.1);
+text-shadow: #44444460 2px 2px 20px;
+}
+
+.name:hover {
+    transform: scale(1.2);
+    text-shadow: #000000b4 2px 2px 20px;
+}
+.profile-img:hover {
+    transform: scale(1.2);
+    box-shadow: #000000 5px 5px 20px;
+
+}
+#i:hover{
+    transform: scale(1.7);
+}
